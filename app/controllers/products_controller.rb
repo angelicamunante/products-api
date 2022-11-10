@@ -1,6 +1,7 @@
 class ProductsController < ApplicationController
   def index
-    products = Product.all
-    render json: products
+    @q = Product.ransack(params[:q])
+
+    render json: @q.result
   end
 end
