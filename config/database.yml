@@ -13,13 +13,13 @@ default: &default
   adapter: mysql2
   encoding: utf8mb4
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: root
-  password:
-  host: localhost
+  database: <%= ENV.fetch('DATABASE_NAME') %> 
+  host: <%= ENV.fetch('DATABASE_HOST') %>
+  username: <%= ENV.fetch('DATABASE_USERNAME') %> 
+  password: <%= ENV.fetch('DATABASE_PASSWORD') %> 
 
 development:
   <<: *default
-  database: products_api_development
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -50,6 +50,3 @@ test:
 #
 production:
   <<: *default
-  database: products_api_production
-  username: products_api
-  password: <%= ENV["PRODUCTS_API_DATABASE_PASSWORD"] %>
