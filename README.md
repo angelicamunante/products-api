@@ -1,24 +1,74 @@
-# README
+# Online Shop API REST with Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+API REST with Rails 7 connected to a MySQL database and deployed in Railway.
 
-Things you may want to cover:
+<!-- TABLE OF CONTENTS -->
+<h3>Table of contents:</h3>
 
-* Ruby version
+1️⃣ <a href="#author">Author</a>\
+2️⃣ <a href="#about-the-project">About the project</a>\
+3️⃣ <a href="#built-with">Built with</a>\
+4️⃣ <a href="#tools-version">Tools Version</a>\
+5️⃣ <a href="#project-requirements">Project Requirements</a>\
+6️⃣ <a href="#contact">Contact</a>
 
-* System dependencies
+<!-- ABOUT THE PROJECT -->
+## About the project
+The api was build using RoR based on Ruby, and the database used was Mysql which connects with the datababase in aws.
 
-* Configuration
+<!-- AUTHOR -->
+## Author
 
-* Database creation
+👋 Hi, my name is Angelica Muñante
 
-* Database initialization
+<!-- BUITL WITH -->
+## Built with
 
-* How to run the test suite
+![Rails] ![MySQL]
 
-* Services (job queues, cache servers, search engines, etc.)
+<!-- TOOLS VERSION -->
+## Tools Version
+- ruby 3.1.0
+- rails 7.0.4
 
-* Deployment instructions
+<!-- PROJECT REQUERIMENTS -->
+## Project Requieriments
 
-* ...
+👉**Before start** you may have been installed in your computer :
+
+* Ruby version : 3.1.0
+
+* Rails : 7.0.4
+
+👉 Clone the repository:
+   ```sh
+   git clone https://github.com/angelicamunante/products-api
+   ```
+👉 Install bundler:
+    ```shell
+    $ gem install bundler:2.3.3
+    ```
+👉  Create a .env file with the next structure 
+    DATABASE_NAME='database_name'
+    DATABASE_HOST='database_host'
+    DATABASE_USERNAME='db_username'
+    DATABASE_PASSWORD='db_password'
+   
+👉 Run the rails server:
+    ```shell
+    $ rails s
+    ```
+    
+<!-- CONTACT -->
+## Contact
+
+[![Gmail][Gmail]][Gmail-url] [![Linkedin][Linkedin]][Linkedin-url]
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[Rails]:https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white
+[MySQL]:https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white
+[Gmail]: https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
+[Gmail-url]: mailto:angelica.munante.galindo@gmail.com
+[Linkedin]: https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white
+[Linkedin-url]: https://www.linkedin.com/in/angelica-mu%C3%B1ante-3602a6251//
