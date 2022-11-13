@@ -66,6 +66,14 @@ The api was build using RoR based on Ruby, and the database used was Mysql which
 
     $ rails s
     
+<!-- DOCUMENTATION -->
+## Documentation
+
+You can see API documentation on this link:
+https://backend-products.herokuapp.com/api-docs
+
+This documentation is auto-generated with [rswag](https://github.com/rswag/rswag) and [rspec](https://github.com/rspec/rspec-rails) gems
+
 <!-- CONTACT -->
 ## Contact
 
