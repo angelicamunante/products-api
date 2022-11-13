@@ -1,6 +1,6 @@
 # Online Shop API REST with Ruby on Rails
 
-API REST with Rails 7 connected to a MySQL database and deployed in Railway.
+API REST with Rails 7 connected to a MySQL database and deployed in Heroku.
 
 <!-- TABLE OF CONTENTS -->
 <h3>Table of contents:</h3>
@@ -31,8 +31,8 @@ The api was build using RoR based on Ruby, and the database used was Mysql which
 - ruby 3.1.0
 - rails 7.0.4
 
-<!-- PROJECT REQUERIMENTS -->
-## Project Requieriments
+<!-- PROJECT REQUIREMENTS -->
+## Project Requirements
 
 👉**Before start** you may have been installed in your computer :
 
@@ -45,19 +45,26 @@ The api was build using RoR based on Ruby, and the database used was Mysql which
    git clone https://github.com/angelicamunante/products-api
    ```
 👉 Install bundler:
-    ```shell
+
     $ gem install bundler:2.3.3
-    ```
+    
+
+👉 In the project's root install ruby gems:
+
+    $ bundle
+    
 👉  Create a .env file with the next structure 
+   
+   ```
     DATABASE_NAME='database_name'
     DATABASE_HOST='database_host'
     DATABASE_USERNAME='db_username'
     DATABASE_PASSWORD='db_password'
+   ```
    
 👉 Run the rails server:
-    ```shell
+
     $ rails s
-    ```
     
 <!-- CONTACT -->
 ## Contact
