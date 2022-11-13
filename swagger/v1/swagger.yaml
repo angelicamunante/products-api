@@ -1,0 +1,32 @@
+---
+openapi: 3.0.1
+info:
+  title: API V1
+  version: v1
+paths:
+  "/products":
+    get:
+      summary: List products
+      tags:
+      - Products
+      parameters:
+      - name: q
+        in: query
+        type: object
+        required: false
+        schema:
+          type: object
+          properties:
+            category_eq:
+              type: integer
+            name_or_product_category_name_cont:
+              type: string
+        description: Object with query filters
+      responses:
+        '200':
+          description: successful
+servers:
+- url: https://backend-products.herokuapp.com
+  variables:
+    defaultHost:
+      default: https://backend-products.herokuapp.com/
